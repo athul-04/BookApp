@@ -1,12 +1,12 @@
 import { Form, Link } from "react-router-dom"
 import Button from "./customUI/Button"
 
+
 export default function Login(){
     return (
         <>
-            <div className="h-screen container flex flex-col justify-center gap-6">
-                <h2 className="mx-auto text-3xl">Login Page</h2>
-                <div className="p-2 w-1/3 h-1/2 bg-black-200 mx-auto border-3 rounded-xl border-blue-500">
+            <h2 className="lg:ml-80 font-mono mx-auto text-3xl">Login Page</h2>
+                <div className="lg:ml-60 p-1 md:w-1/3 h-1/2 bg-black-200 mx-auto border-3 rounded-xl border-blue-500">
                     <div className="w-2/3 mx-auto ">
                         <Form  method="post" className="h-60 flex flex-col justify-center mt-10">
                             <input type="email" name="email" className="  appearance-none p-1 border-3  rounded-lg mt-2 focus:outline-none focus:border-blue-700 border-blue-400 invalid:border-red-500"/>
@@ -19,8 +19,7 @@ export default function Login(){
                     <div className="container text-center">
                         <Link className=" font-semibold text-lg hover:text-blue-500" to={`?mode=Signup`}>Signup</Link>
                     </div>
-                </div>
-            </div>
+                </div>     
         </>
     )
 
