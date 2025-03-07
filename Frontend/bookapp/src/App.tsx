@@ -4,6 +4,8 @@ import AuthPage from './pages/AuthPage'
 import { signupAction } from './pages/AuthPage'
 import HomePage from './pages/HomePage'
 
+import ProfilePage from './pages/ProfilePage'
+
 
 const router=createBrowserRouter([
   {path:"/",element:<AuthPage />,action:signupAction},

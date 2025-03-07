@@ -4,7 +4,7 @@ import Button from "./customUI/Button";
 export default function Signup(){
     return (
         <>
-            <h2 className="lg:ml-80 font-mono mx-auto text-3xl">Login Page</h2>
+            <h2 className="lg:ml-87 font-mono mx-auto text-3xl">Signup Page</h2>
                 <div className="lg:ml-60 p-1 md:w-1/3 h-1/2 bg-black-200 mx-auto border-3 rounded-xl border-blue-500">
                     <div className="w-2/3 mx-auto ">
                         <Form  method="post" className="h-60 flex flex-col justify-center mt-10">
